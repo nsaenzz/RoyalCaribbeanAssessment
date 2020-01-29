@@ -6894,11 +6894,21 @@ var render = function() {
                 }
               }),
               _vm._v(" "),
-              _c("v-btn", { staticClass: "mr-4", on: { click: _vm.submit } }, [
-                _vm._v("Save")
-              ]),
+              _c(
+                "v-btn",
+                {
+                  staticClass: "mr-4",
+                  attrs: { color: "primary" },
+                  on: { click: _vm.submit }
+                },
+                [_vm._v("Save")]
+              ),
               _vm._v(" "),
-              _c("v-btn", { on: { click: _vm.clear } }, [_vm._v("clear")])
+              _c(
+                "v-btn",
+                { attrs: { color: "error" }, on: { click: _vm.clear } },
+                [_vm._v("clear")]
+              )
             ],
             1
           )

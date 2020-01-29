@@ -119,8 +119,8 @@
                 label="Add to Email List"
                 ></v-checkbox>
 
-                <v-btn class="mr-4" @click="submit">Save</v-btn>
-                <v-btn @click="clear">clear</v-btn>
+                <v-btn class="mr-4" @click="submit" color="primary">Save</v-btn>
+                <v-btn @click="clear" color="error">clear</v-btn>
             </form>
         </v-col>
     </v-row>
